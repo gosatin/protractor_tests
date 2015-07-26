@@ -42,7 +42,7 @@ describe('weather.com', function() {
         $('#signIn').click();
         //select main window back
         browser.switchTo().window(currentWindow);
-        browser.ignoreSynchronization = fals;
+        browser.ignoreSynchronization = false;
 //        browser.debugger();
 //        browser.pause();
         browser.waitForAngular();
